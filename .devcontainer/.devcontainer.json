@@ -1,0 +1,23 @@
+{
+	"name": "Terminal.Gui Codespace",
+	"settings": {
+		"workbench.colorTheme": "Default Dark+"
+	},
+	"extensions": [
+		"eamodio.gitlens",
+		"ms-dotnettools.csharp",
+		"VisualStudioExptTeam.vscodeintellicode",
+		"ms-vscode.powershell",
+		"cschleiden.vscode-github-actions",
+		"redhat.vscode-yaml",
+		"bierner.markdown-preview-github-styles",
+		"ban.spellright",
+		"jmrog.vscode-nuget-package-manager",
+		"coenraads.bracket-pair-colorizer",
+		"vscode-icons-team.vscode-icons",
+		"editorconfig.editorconfig"
+	],
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+}
