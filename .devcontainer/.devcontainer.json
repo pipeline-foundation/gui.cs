@@ -17,4 +17,7 @@
 		"vscode-icons-team.vscode-icons",
 		"editorconfig.editorconfig"
 	],
+	"build": {
+		"dockerfile": "Dockerfile"
+	}
 }
