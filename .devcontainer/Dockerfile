@@ -1,1 +1,1 @@
-FROM mcr.microsoft.com/vscode/devcontainers/dotnet:latest
+FROM mcr.microsoft.com/vscode/devcontainers/dotnet:3.1
