@@ -17,7 +17,6 @@
 		"vscode-icons-team.vscode-icons",
 		"editorconfig.editorconfig"
 	],
-	"postCreateCommand": "dotnet restore && dotnet build --configuration Release --no-restore && dotnet test --no-restore --verbosity normal --collect:'XPlat Code Coverage' --settings UnitTests/coverlet.runsettings",
 	"build": {
 		"dockerfile": "Dockerfile"
 	}
