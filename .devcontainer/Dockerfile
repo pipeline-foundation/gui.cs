@@ -1,1 +1,1 @@
-FROM mcr.microsoft.com/vscode/devcontainers/dotnet:0.201.7-5.0
+FROM mcr.microsoft.com/vscode/devcontainers/dotnet:0.200.0-5.0
