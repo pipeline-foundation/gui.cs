@@ -1,5 +1,6 @@
 {
 	"name": "Terminal.Gui Codespace",
+	"image": "mcr.microsoft.com/vscode/devcontainers/dotnet:0.201.7-5.0",
 	"settings": {
 		"workbench.colorTheme": "Default Dark+"
 	},
@@ -17,7 +18,8 @@
 		"vscode-icons-team.vscode-icons",
 		"editorconfig.editorconfig"
 	],
+	"postCreateCommand": "dotnet restore && dotnet build --configuration Release --no-restore && dotnet test --no-restore --verbosity normal --collect:'XPlat Code Coverage' --settings UnitTests/coverlet.runsettings",
 	"build": {
 		"dockerfile": "Dockerfile"
-	},
+	}
 }
